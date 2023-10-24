@@ -95,9 +95,9 @@ Take a look at the [`packages/app/design`](https://github.com/nandorojo/solito/t
 
 - `apps` entry points for each app
 
-   - `expo`
+  - `native`
     - `app` you'll be creating files inside of `apps/expo/app` to use file system routing on iOS and Android.
-  - `next`
+  - `web`
 
 - `packages` shared packages across apps
   - `app` you'll be importing most files from `app/`
@@ -117,7 +117,7 @@ You can add other folders inside of `packages/` if you know what you're doing an
   - Runs `yarn next`
 - Expo local dev:
   - First, build a dev client onto your device or simulator
-    - `cd apps/expo`
+    - `cd apps/native`
     - Then, either `expo run:ios`, or `eas build`
   - After building the dev client, from the root of the monorepo...
     - `yarn native` (This runs `expo start --dev-client`)
