@@ -1,8 +1,8 @@
 module.exports = {
   extends: 'next',
   settings: {
-    next: {
-      rootDir: 'apps/next/',
+    web: {
+      rootDir: 'apps/web/',
     },
   },
   root: true,

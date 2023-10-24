@@ -1,5 +1,5 @@
 {
-  "name": "solito-with-tailwind",
+  "name": "skedyul",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -15,8 +15,8 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "native": "cd apps/expo && yarn start",
-    "web": "cd apps/next && yarn next"
+    "native": "cd apps/native && yarn start",
+    "web": "cd apps/web && yarn next"
   },
   "resolutions": {
     "metro": "~0.76.7",
