@@ -2,8 +2,17 @@
 
 /** @type {import('tailwindcss').Config['theme']} */
 const theme = {
-  // edit your tailwind theme here!
-  // https://tailwindcss.com/docs/adding-custom-styles
+  colors: {
+    grey: {
+      light: '#E2E8F0',
+      DEFAULT: '#bbc9dc',
+      dark: '#bbc9dc',
+    }
+  },
+  fontFamily: {
+    sans: ['Graphik', 'sans-serif'],
+    serif: ['Merriweather', 'serif'],
+  },
 }
 
 module.exports = {

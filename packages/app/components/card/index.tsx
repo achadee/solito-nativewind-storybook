@@ -15,7 +15,7 @@ export function Card(props: CardProps) {
   const { title, children } = props
 
   return (
-    <View className="text-xl border rounded">
+    <View className="border border-grey-light shadow p-2 rounded-lg">
       <H1>{title}</H1>
       {children}
     </View>
