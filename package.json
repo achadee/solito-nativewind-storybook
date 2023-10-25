@@ -15,7 +15,8 @@
   },
   "scripts": {
     "native": "cd apps/native && yarn start",
-    "web": "cd apps/web && yarn next"
+    "web": "cd apps/web && yarn next",
+    "storybook": "cd app/packages && yarn storybook"
   },
   "resolutions": {
     "metro": "~0.76.7",
